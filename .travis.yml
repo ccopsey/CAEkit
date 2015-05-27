@@ -6,6 +6,6 @@ script:
   - npm test --loglevel info
   - npm run build --loglevel info
 after_success:
-  - ls -ltrph /home/travis/build/ccopsey
+  - cd CAEkit
+  - zip CAEkit-win32
   - ls -ltrph /home/travis/build/ccopsey/CAEkit
-  - ls -ltrph /home/travis/build/ccopsey/CAEkit/CAEkit-win32
