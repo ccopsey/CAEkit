@@ -1,12 +1,20 @@
 {
-  "name"    : "CAEkit",
-  "version" : "0.0.1",
-  "main"    : "main.js",
+  "name": "CAEkit",
+  "version": "0.0.1",
+  "main": "main.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ccopsey/CAEkit.git"
   },
+  "bugs": {
+    "url": "https://github.com/ccopsey/CAEkit/issues"
+  },
   "devDependencies": {
-    "grunt": "0.4"
+    "electron-packager": "^4.1.1",
+    "standard": "^3.11.1"
+  }
+  "scripts": {
+    "build": "electron-packager . CAEkit",
+    "test": "standard"
   }
 }
