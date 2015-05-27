@@ -2,6 +2,7 @@
   "name": "CAEkit",
   "version": "0.0.1",
   "main": "main.js",
+  "license": "Unlicense",
   "repository": {
     "type": "git",
     "url": "https://github.com/ccopsey/CAEkit.git"
